@@ -20,7 +20,8 @@ async function main() {
         }   
     ],
     config:{
-      temperature: 2 // 0-2 range
+      temperature: 2, // 0-2 range,
+      stopSequences:["\n","."] // end the output after one line
     }
   });
   console.log(response.text);
