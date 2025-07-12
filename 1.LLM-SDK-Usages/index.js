@@ -20,7 +20,7 @@ async function main() {
         }   
     ],
     config:{
-      temperature: 2
+      temperature: 2 // 0-2 range
     }
   });
   console.log(response.text);
