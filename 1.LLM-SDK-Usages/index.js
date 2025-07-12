@@ -18,7 +18,10 @@ async function main() {
             role: 'user',
             parts: [{text: 'Hello, can you write me a poem about the beauty of nature?'}]
         }   
-    ]
+    ],
+    config:{
+      temperature: 2
+    }
   });
   console.log(response.text);
 }
