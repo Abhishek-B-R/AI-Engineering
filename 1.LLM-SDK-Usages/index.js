@@ -21,7 +21,9 @@ async function main() {
     ],
     config:{
       temperature: 2, // 0-2 range,
-      stopSequences:["\n","."] // end the output after one line
+      stopSequences:["\n","."], // end the output after one line
+      frequencyPenalty: 1,
+      presencePenalty: 1, // not available for this model but are used, check notes for explaination
     }
   });
   console.log(response.text);
