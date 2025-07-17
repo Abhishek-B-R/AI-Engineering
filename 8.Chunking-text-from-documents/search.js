@@ -57,5 +57,7 @@ async function getChatCompletion(text, query) {
     temperature: 0.5,
     frequency_penalty: 0.5
   });
+  chatMessages.push(response.choices[0].message);  // adding the response to the chat history
+  // so that ai remembers the conversation
   console.log(response.choices[0].message.content);
 }
