@@ -1,68 +1,98 @@
-This repository is a structured collection of AI/LLM experiments and implementations that I've built while learning from Scrimba's AI Engineering course. It covers everything from foundational LLM SDK usage to fine-tuning, embedding, vector databases, and partial agent setups using the ReAct framework.
+# 🧠 AI/LLM Experiments Repository
 
-📂 Project Structure & Modules
-Below are the key components and directories of the repository:
+This repository is a structured collection of AI/LLM experiments and implementations built during my learning journey through **Scrimba's AI Engineering Course**. It spans from foundational LLM SDK usage to fine-tuning, embeddings, vector databases, and initial agent setups using the **ReAct framework**.
 
-1. LLM-SDK-Usages
-Basic usage of different LLM SDKs including configuration and penalty adjustments to control model responses.
+---
 
-🛠️ Recent Update: Added token and temperature penalties to manage output behavior.
+## 📂 Project Structure & Modules
 
-2. Fine-Tune-LLM
-Initial setup for fine-tuning large language models on custom datasets.
+### 1. `LLM-SDK-Usages`
+Basic usage of different LLM SDKs, including configuration tweaks and penalty settings to control model outputs.
 
-🧠 Recent Update: Introduced steps and sample scripts for fine-tuning.
+> 🛠️ **Recent Update**: Added token and temperature penalties to manage output behavior.
 
-3. HuggingFace-Model-Usage
-Working with HuggingFace's image-to-image models using the Transformers and Diffusers libraries.
+---
 
-🖼️ Recent Update: Integrated image-to-image model usage and inference.
+### 2. `Fine-Tune-LLM`
+Initial scaffolding for fine-tuning LLMs on custom datasets.
 
-4. Model-Building-Transformer.js
-A JavaScript-based module using Transformer.js to build and run transformer models directly in the browser.
+> 🧠 **Recent Update**: Introduced fine-tuning steps and sample scripts.
 
-🌐 Recent Update: Added sample models and demo scripts.
+---
 
-5. Running-Ollama-Model
-Instructions and scripts to run and interact with LLMs via the Ollama SDK.
+### 3. `HuggingFace-Model-Usage`
+Working with HuggingFace’s **image-to-image models** using `Transformers` and `Diffusers`.
 
-🤖 Recent Update: Added local model execution and calling it using Ollama SDK.
+> 🖼️ **Recent Update**: Integrated image-to-image model usage and inference.
 
-6. Text-Embeddings
-Solutions and scripts for generating text embeddings and using them for downstream NLP tasks.
+---
 
-🔍 Recent Update: Solved embedding pairings and assignment-based text operations.
+### 4. `Model-Building-Transformer.js`
+JavaScript-based module using `Transformer.js` to build and execute transformer models in the browser.
 
-7. Vector-DB-via-Supabase
-Semantic search setup using embeddings and Supabase vector database, combined with OpenAI to generate conversational responses.
+> 🌐 **Recent Update**: Added sample models and demo scripts.
 
-📚 Recent Update: Enhanced conversational context from vector search results.
+---
 
-8. Chunking-text-from-documents
-Text chunking from documents and persisting them for embedding and vector storage. A simple frontend was also added.
+### 5. `Running-Ollama-Model`
+Scripts and instructions for running LLMs locally using the **Ollama SDK**.
 
-💾 Recent Update: Added a frontend UI and basic object persistence support.
+> 🤖 **Recent Update**: Added local model execution and SDK-based interaction.
 
-9. AI-Agents
-Partial setup of AI agents using the ReAct framework. This module explores autonomous reasoning and action selection by agents.
+---
 
-🧪 Recent Update: ReAct framework integration begun—still in progress.
+### 6. `Text-Embeddings`
+Scripts for generating and applying **text embeddings** in various NLP tasks.
 
-🛑 .gitignore
-This project primarily contains JavaScript, CSS, and HTML files. The .gitignore file is based on typical frontend setups and was created as part of the learning process.
+> 🔍 **Recent Update**: Solved embedding pairings and assignment-based operations.
 
-📅 Commit Highlights
-Last Update: Partial AI agent setup via ReAct (91c86a4) — last week
+---
 
-Fine-tuning, image models, Ollama integration, and chunking added 2 weeks ago
+### 7. `Vector-DB-via-Supabase`
+Semantic search setup using embeddings with **Supabase vector DB**, combined with OpenAI for response generation.
 
-🧑‍💻 Author
-Name: Abhishek B R
-Learning Path: Scrimba - AI Engineering Course
+> 📚 **Recent Update**: Enhanced conversational context from vector search results.
 
-📌 Notes
-This repository is still evolving. Contributions are based on personal experimentation and learning milestones.
+---
 
-Most modules include working demos, scripts, and notes for reproduction.
+### 8. `Chunking-text-from-documents`
+Extracts and chunks text from documents, stores them for embedding and vector usage. Includes a basic frontend.
 
-Feel free to fork or explore. Feedback and discussions are welcome!
+> 💾 **Recent Update**: Added UI and object persistence support.
+
+---
+
+### 9. `AI-Agents`
+Partial setup of autonomous **AI agents** using the ReAct framework, exploring reasoning and action planning.
+
+> 🧪 **Recent Update**: Initial ReAct framework integration (in progress).
+
+---
+
+### 🛑 `.gitignore`
+This is a JavaScript/CSS/HTML-based project. The `.gitignore` is modeled on typical frontend setups and was configured as part of the learning process.
+
+---
+
+## 📅 Commit Highlights
+
+- **Last Week**: Partial AI agent setup via ReAct (`91c86a4`)
+- **2 Weeks Ago**: Fine-tuning, image model usage, Ollama integration, and chunking features added
+
+---
+
+## 🧑‍💻 Author
+
+- **Name**: Abhishek B R  
+- **Learning Path**: *Scrimba - AI Engineering Course*
+
+---
+
+## 📌 Notes
+
+- The repository is **actively evolving** and documents my learning journey.
+- Most modules include **working demos**, **scripts**, and **reproducible notes**.
+- Feel free to **fork**, **explore**, or provide **feedback** and ideas for improvement.
+
+---
+
