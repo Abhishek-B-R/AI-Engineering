@@ -1,0 +1,68 @@
+This repository is a structured collection of AI/LLM experiments and implementations that I've built while learning from Scrimba's AI Engineering course. It covers everything from foundational LLM SDK usage to fine-tuning, embedding, vector databases, and partial agent setups using the ReAct framework.
+
+📂 Project Structure & Modules
+Below are the key components and directories of the repository:
+
+1. LLM-SDK-Usages
+Basic usage of different LLM SDKs including configuration and penalty adjustments to control model responses.
+
+🛠️ Recent Update: Added token and temperature penalties to manage output behavior.
+
+2. Fine-Tune-LLM
+Initial setup for fine-tuning large language models on custom datasets.
+
+🧠 Recent Update: Introduced steps and sample scripts for fine-tuning.
+
+3. HuggingFace-Model-Usage
+Working with HuggingFace's image-to-image models using the Transformers and Diffusers libraries.
+
+🖼️ Recent Update: Integrated image-to-image model usage and inference.
+
+4. Model-Building-Transformer.js
+A JavaScript-based module using Transformer.js to build and run transformer models directly in the browser.
+
+🌐 Recent Update: Added sample models and demo scripts.
+
+5. Running-Ollama-Model
+Instructions and scripts to run and interact with LLMs via the Ollama SDK.
+
+🤖 Recent Update: Added local model execution and calling it using Ollama SDK.
+
+6. Text-Embeddings
+Solutions and scripts for generating text embeddings and using them for downstream NLP tasks.
+
+🔍 Recent Update: Solved embedding pairings and assignment-based text operations.
+
+7. Vector-DB-via-Supabase
+Semantic search setup using embeddings and Supabase vector database, combined with OpenAI to generate conversational responses.
+
+📚 Recent Update: Enhanced conversational context from vector search results.
+
+8. Chunking-text-from-documents
+Text chunking from documents and persisting them for embedding and vector storage. A simple frontend was also added.
+
+💾 Recent Update: Added a frontend UI and basic object persistence support.
+
+9. AI-Agents
+Partial setup of AI agents using the ReAct framework. This module explores autonomous reasoning and action selection by agents.
+
+🧪 Recent Update: ReAct framework integration begun—still in progress.
+
+🛑 .gitignore
+This project primarily contains JavaScript, CSS, and HTML files. The .gitignore file is based on typical frontend setups and was created as part of the learning process.
+
+📅 Commit Highlights
+Last Update: Partial AI agent setup via ReAct (91c86a4) — last week
+
+Fine-tuning, image models, Ollama integration, and chunking added 2 weeks ago
+
+🧑‍💻 Author
+Name: Abhishek B R
+Learning Path: Scrimba - AI Engineering Course
+
+📌 Notes
+This repository is still evolving. Contributions are based on personal experimentation and learning milestones.
+
+Most modules include working demos, scripts, and notes for reproduction.
+
+Feel free to fork or explore. Feedback and discussions are welcome!
